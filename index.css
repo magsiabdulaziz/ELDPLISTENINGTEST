@@ -1,0 +1,38 @@
+/* Cambridge English B2 First Practice Test Styles */
+
+@media print {
+  header, .no-print, nav, button {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #334155;
+}
+
+/* Radio bubble styles for Cambridge OMR */
+.omr-bubble {
+  transition: all 0.15s ease-in-out;
+}
+.omr-bubble:hover {
+  transform: scale(1.08);
+}

@@ -1,0 +1,8 @@
+{
+  "name": "B2 First Mid Term: Sukkur IBA",
+  "description": "Official 30-mark Mid Term Examination for Think 2 (Chapters 1–4) at Institute of Emerging Technologies, Sukkur IBA University – Khairpur Campus. Features sequential part unlocking, locked responses upon submission, and automated instructor email dispatch.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
